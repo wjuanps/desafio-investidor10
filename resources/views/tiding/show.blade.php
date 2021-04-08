@@ -16,9 +16,9 @@
 
     <div class="container">
         @if (isset($tiding))
-            <h1>{{ $tiding->category->name }}</h1>
             <h1>{{ $tiding->title }}</h1>
 
+            <br />
             <p>{{ $tiding->text }}</p>
         @endif
     </div>
